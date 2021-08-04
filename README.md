@@ -32,7 +32,7 @@ end)
 scriptsection:NewButton("Bedwars Script", "bedwars", function()
     game.StarterGui:SetCore("SendNotification", {Title="INFO!"; Text="Gui hidden"; Duration=3;})
     Library:ToggleUI()
-    loadstring(game:HttpGet'https://dogix.wtf/scripts/noboline/780f5d6e-2d9b-49ec-a68f-46a4295dff41')()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/BedWarsMonkey.lua"))()
 end)
 
 --localplayer
