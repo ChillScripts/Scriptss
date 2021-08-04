@@ -32,7 +32,7 @@ end)
 scriptsection:NewButton("Bedwars Script", "bedwars", function()
     game.StarterGui:SetCore("SendNotification", {Title="INFO!"; Text="Gui hidden"; Duration=3;})
     Library:ToggleUI()
-    loadstring(game:HttpGet("https://gist.githubusercontent.com/DeveloperMikey/2b8ee3d5a38c56c2cc1db72554850384/raw/bedwar.lua", true))()
+    loadstring(game:HttpGet'https://dogix.wtf/scripts/noboline/780f5d6e-2d9b-49ec-a68f-46a4295dff41')()
 end)
 
 --localplayer
@@ -75,4 +75,5 @@ game:GetService('RunService').Stepped:connect(function()
         game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
     end
 end)
+
 
