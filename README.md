@@ -34,6 +34,12 @@ scriptsection:NewButton("Bedwars Script", "bedwars", function()
     Library:ToggleUI()
     loadstring(game:HttpGet("https://gist.githubusercontent.com/DeveloperMikey/2b8ee3d5a38c56c2cc1db72554850384/raw/bedwar.lua", true))()
 end)
+scriptsection:NewButton("G to activate anime fighting simulator "AFS", function()
+    game.StarterGui:SetCore("SendNotification", {Title="INFO!"; Text="Gui hidden"; Duration=3;})
+    Library:ToggleUI()
+    _G.key = "POLAR_IS_THE_BEST";loadstring(game:HttpGet("https://polarhub.xyz/PolarFreeScript.lua"))()
+
+end)
 
 --localplayer
 local Lp = Window:NewTab("LocalPlayer")
