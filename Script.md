@@ -24,7 +24,7 @@ end)
 
 local Scripts_tab = Window:NewTab("Scripts")
 local scriptsection = Scripts_tab:NewSection("scripts")
-scriptsection:NewButton("Pet Simulator X", "petsim", function()
+scriptsection:NewButton("Pet Simulator X Gamepasses", "petsim", function()
     game.StarterGui:SetCore("SendNotification", {Title="INFO!"; Text="gui hidden"; Duration=3;})
     Library:ToggleUI()
     local gmppath = require(game:GetService("ReplicatedStorage").Framework.Modules.Client["5 | Gamepasses"])
